@@ -17,6 +17,5 @@ public class GitHoverTest {
         $(byText("Enterprise")).click();
     //check up
         $(".application-main h1").shouldHave(text("Build like the best"));
-        sleep(3000);
     }
 }
